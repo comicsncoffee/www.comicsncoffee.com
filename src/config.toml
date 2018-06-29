@@ -1,0 +1,69 @@
+baseurl = "https://www.comicsncoffee.com/"
+title = "Comics 'N' Coffee"
+languageCode = "en-us"
+theme = "minimal"
+
+googleAnalytics = "UA-115297583-3"
+disqusShortname = "comicsncoffee"
+
+enableEmoji = true
+
+[params]
+	author = "Ricardo N Feliciano & Moises Lopez"
+	profilepic = "/assets/img/logo-icon-no-bg.svg"
+	description = "Independent community of Marvel and DC fans. Covering the movies, TV shows, figures, and of course, the comics. For fans, by fans."
+	githubUsername = "felicianotech"
+	accent = "#FFFFFF"
+	backgroundColor = "#18191C"
+	font = "Raleway"
+	hightlight = true
+	highlightStyle = "solarized-dark"
+	highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[blackfriday]
+	hrefTargetBlank	=	true
+
+[social]
+	twitter = "Comics_NCoffee"
+
+
+[[menu.main]]
+	name	= "Home"
+	url		= "/"
+	weight	= -1
+
+[[menu.main]]
+	name	= "Podcast"
+	url		= "/podcast/"
+	weight	= 5
+
+[[menu.main]]
+	name	= "Newsletter"
+	url		= "/newsletter/"
+	weight	= 10
+
+
+[[menu.icon]]
+    url = "https://twitter.com/Comics_NCoffee/"
+    name = "twitter"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://www.facebook.com/ComicsNCoffee/"
+    name = "facebook"
+    weight = 2
+
+[[menu.icon]]
+    name = "instagram"
+    url = "https://www.instagram.com/comicsncoffee/"
+    weight = 3
+
+[[menu.icon]]
+    name = "google-plus"
+    url = "https://plus.google.com/113015979305406231545"
+    weight = 4
+
+[[menu.icon]]
+    name = "github"
+    url = "https://github.com/comicsncoffee/www.comicsncoffee.com"
+    weight = 5

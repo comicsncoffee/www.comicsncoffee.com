@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5526.4536"
+   height="5000.0005"
+   viewBox="0 0 5526.4536 5000.0005"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="icon-no-background.svg"
+   inkscape:export-filename="/home/felicianotech/Projects/comics-n-coffee/graphical-assets/master.png"
+   inkscape:export-xdpi="21.940001"
+   inkscape:export-ydpi="21.940001">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#d3d3d3"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.08"
+     inkscape:cx="5250.9746"
+     inkscape:cy="-390.87338"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="3090"
+     inkscape:window-height="1689"
+     inkscape:window-x="110"
+     inkscape:window-y="55"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(8467.7269,14877.829)">
+    <g
+       id="g904"
+       transform="matrix(1.8897638,0,0,1.8897638,8617.1363,-24040.272)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1962-1"
+         d="m -7743.8974,4860.1006 a 1322.9166,1322.9167 0 0 0 -1157.552,1311.2756 1322.9166,1322.9167 0 0 0 1157.552,1310.889 v -333.6806 a 992.18749,992.18754 0 0 1 -826.8229,-977.2084 992.18749,992.18754 0 0 1 826.8229,-978.1482 z m 330.7292,0.3866 v 333.6804 a 992.18749,992.18754 0 0 1 826.8229,977.2086 992.18749,992.18754 0 0 1 -826.8229,978.1484 v 333.1276 a 1322.9166,1322.9167 0 0 0 1157.5521,-1311.276 1322.9166,1322.9167 0 0 0 -1157.5521,-1310.889 z"
+         style="opacity:1;vector-effect:none;fill:#b2303a;fill-opacity:1;stroke:none;stroke-width:14.00872135;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <g
+         style="fill:#fffff5;fill-opacity:1"
+         transform="translate(-4380.2723,1622.0742)"
+         id="g2127">
+        <rect
+           style="opacity:1;vector-effect:none;fill:#fffff5;fill-opacity:1;stroke:none;stroke-width:1.66183007;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect2039"
+           width="330.72916"
+           height="1058.3334"
+           x="-3363.625"
+           y="4020.1355" />
+        <rect
+           style="opacity:1;vector-effect:none;fill:#fffff5;fill-opacity:1;stroke:none;stroke-width:2.42897701;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect2039-4-7"
+           width="330.72916"
+           height="2260.9763"
+           x="192.35727"
+           y="3938.689"
+           transform="matrix(1,0,-0.57357644,0.81915204,0,0)" />
+        <rect
+           style="opacity:1;vector-effect:none;fill:#fffff5;fill-opacity:1;stroke:none;stroke-width:2.42897701;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect2039-4-7-5"
+           width="330.72916"
+           height="2260.9763"
+           x="-548.69574"
+           y="4907.6792"
+           transform="matrix(1,0,-0.57357645,0.81915204,0,0)" />
+      </g>
+    </g>
+  </g>
+</svg>

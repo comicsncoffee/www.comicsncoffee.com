@@ -1,0 +1,9 @@
+{{ partial "header" . }}
+<main>
+    {{ partial "list-item" . }}
+	<div class="content">
+		{{ .Content }}
+		{{ partial "mailchimp-signup" . }}
+	</div>
+</main>
+{{ partial "footer.html" . }}
