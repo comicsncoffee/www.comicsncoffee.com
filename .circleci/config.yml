@@ -3,12 +3,18 @@ workflows:
   main:
     jobs:
       - build
-      - deploy:
+      - deploy-production:
           requires:
             - build
           filters:
             branches:
               only: master
+      - deploy-staging:
+          requires:
+            - build
+          filters:
+            branches:
+              ignore: master
 
 
 version: 2
@@ -20,7 +26,10 @@ jobs:
       - checkout
       - run:
           name: "Build Website With Hugo"
-          command: HUGO_ENV=production hugo -v -s src/
+          command: HUGO_ENV=production hugo --verbose --source src/
+      - run:
+          name: "Build Staging With Hugo"
+          command: HUGO_ENV=staging hugo --verbose --buildDrafts --buildFuture --source src/ --destination staging/
       - run:
           name: "Test Website"
           command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
@@ -29,7 +38,7 @@ jobs:
           paths:
             - public
 
-  deploy:
+  deploy-production:
     docker:
       - image: cibuilds/hugo:0.42.2
     steps:
@@ -39,4 +48,14 @@ jobs:
       - run: |
           echo 'web01.revidian.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJiGRY6N9WYQ0vy6cTiwAgNbc6ueJmVo/EafBtmT7bcD6cQMbipYM/KfYQ2lCn2TxqWepZKYoyoVQXgArycCOns=' >> ~/.ssh/known_hosts
           rsync -va --delete src/public/ staticweb@web01.revidian.net:www/www.comicsncoffee.com/public_html
+
+  deploy-staging:
+    docker:
+      - image: cibuilds/hugo:0.42.2
+    steps:
+      - attach_workspace:
+          at: src
+      - add_ssh_keys
+      - run: |
+          echo 'web01.revidian.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJiGRY6N9WYQ0vy6cTiwAgNbc6ueJmVo/EafBtmT7bcD6cQMbipYM/KfYQ2lCn2TxqWepZKYoyoVQXgArycCOns=' >> ~/.ssh/known_hosts
           rsync -va --delete src/public/ staticweb@web01.revidian.net:www/www.comicsncoffee.com/staging_html
