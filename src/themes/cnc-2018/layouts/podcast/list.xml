@@ -1,0 +1,41 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+		<title>Comics 'N' Coffee Podcast</title>
+		<link>{{ .Site.BaseURL }}podcast/</link>
+		<language>en-us</language>
+		<copyright>&#xA9;2018 Ricardo N Feliciano</copyright>
+		<image>
+			<url>https://www.ComicsNCoffee.com/assets/img/podcast-cover.png</url>
+			<title>Comics 'N' Coffee Podcast</title>
+			<link>{{ .Site.BaseURL }}podcast/</link>
+		</image>
+		<itunes:subtitle>The Comics 'N' Coffee Podcast - for Marvel and DC fans.</itunes:subtitle>
+		<itunes:author>Ricardo N Feliciano and Moises Lopez.</itunes:author>
+		<description>The Comics 'N' Coffee Podcast is a light hearted podcast covering everything Marvel and DC. We cover the movies, TV shows, comics, video games, figures, and more.</description>
+		<itunes:summary>The Comics 'N' Coffee Podcast is a light hearted podcast covering everything Marvel and DC. We cover the movies, TV shows, comics, video games, figures, and more.</itunes:summary>
+		<itunes:owner>
+			<itunes:name>Ricardo N Feliciano</itunes:name>
+			<itunes:email>Ricardo@Feliciano.Tech</itunes:email>
+		</itunes:owner>
+		<itunes:image href="https://www.ComicsNCoffee.com/assets/img/podcast-cover.png" />
+		<itunes:category text="Society &amp; Culture" />
+		<itunes:keywords>marvel, dc, comics, iron man, captain america, spider-man, batman, superman, figures, movies</itunes:keywords>
+		<itunes:explicit>no</itunes:explicit>
+		{{ range first 50 .Data.Pages }}
+		<item>
+			<title>{{ .Title }}</title>
+			<itunes:title>{{ .Title }}</itunes:title>
+			<link>{{ .Permalink }}</link>
+			<enclosure url="https://dl.comicsncoffee.com/comics-n-coffee-volume-{{ .Params.season }}-issue-{{ .Params.episode }}.mp3" length="{{ .Params.filesize }}" type="audio/mpeg" />
+			<guid>https://dl.comicsncoffee.com/comics-n-coffee-volume-{{ .Params.season }}-issue-{{ .Params.episode }}.mp3</guid>
+			<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+			<itunes:duration>{{ .Params.duration }}</itunes:duration>
+			<itunes:explicit>no</itunes:explicit>
+			<description>{{ .Description }}</description>
+			<itunes:summary>{{ .Description }}</itunes:summary>
+			<itunes:season>{{ .Params.season }}</itunes:season>
+			<itunes:episode>{{ .Params.episode }}</itunes:episode>
+		</item>
+		{{ end }}
+	</channel>
+</rss>

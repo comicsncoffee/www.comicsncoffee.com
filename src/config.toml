@@ -1,7 +1,7 @@
 baseurl = "https://www.comicsncoffee.com/"
 title = "Comics 'N' Coffee"
 languageCode = "en-us"
-theme = "minimal"
+theme = "cnc-2018"
 
 googleAnalytics = "UA-115297583-3"
 disqusShortname = "comicsncoffee"
@@ -42,28 +42,38 @@ enableEmoji = true
 	url		= "/newsletter/"
 	weight	= 10
 
+[[menu.main]]
+	name	= "Contact Us"
+	url		= "/contact/"
+	weight	= 15
 
-[[menu.icon]]
+
+[[menu.social]]
     url = "https://twitter.com/Comics_NCoffee/"
     name = "twitter"
     weight = 1
 
-[[menu.icon]]
+[[menu.social]]
     url = "https://www.facebook.com/ComicsNCoffee/"
     name = "facebook"
     weight = 2
 
-[[menu.icon]]
+[[menu.social]]
     name = "instagram"
     url = "https://www.instagram.com/comicsncoffee/"
     weight = 3
 
-[[menu.icon]]
-    name = "google-plus"
-    url = "https://plus.google.com/113015979305406231545"
+[[menu.social]]
+    name = "youtube"
+    url = "https://www.youtube.com/channel/UCNCoJDuMl4r4Q0SjNgYS2kA"
     weight = 4
 
-[[menu.icon]]
+[[menu.social]]
+    name = "google-plus"
+    url = "https://plus.google.com/113015979305406231545"
+    weight = 5
+
+[[menu.social]]
     name = "github"
     url = "https://github.com/comicsncoffee/www.comicsncoffee.com"
-    weight = 5
+    weight = 6
