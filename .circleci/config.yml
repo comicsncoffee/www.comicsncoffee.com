@@ -29,7 +29,7 @@ jobs:
           command: HUGO_ENV=production hugo --verbose --source src/
       - run:
           name: "Build Staging With Hugo"
-          command: HUGO_ENV=staging hugo --verbose --buildDrafts --buildFuture --source src/ --destination staging/
+          command: HUGO_ENV=staging hugo --verbose --source src/ --config src/config.toml,src/config-staging.toml
       - run:
           name: "Test Website"
           command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external

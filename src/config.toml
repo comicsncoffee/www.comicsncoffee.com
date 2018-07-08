@@ -7,6 +7,7 @@ googleAnalytics = "UA-115297583-3"
 disqusShortname = "comicsncoffee"
 
 enableEmoji = true
+enableRobotsTXT = true
 
 [params]
 	author = "Ricardo N Feliciano & Moises Lopez"
