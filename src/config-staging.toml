@@ -1,0 +1,6 @@
+baseurl = "https://staging.comicsncoffee.com/"
+
+buildDrafts = true
+buildFuture = true
+
+publishDir = "staging"
