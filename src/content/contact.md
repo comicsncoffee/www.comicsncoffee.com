@@ -1,23 +1,6 @@
 ---
 title: "Contact Us"
-menu:
-  main:
-    weight: 25
 ---
-
-<style type="text/css">
-	form{
-		width: 100%;
-		width: 600px;
-	}
-
-	input[type=email],
-	input[type=text],
-	textarea{
-		width: 100%;
-	}
-</style>
-
 <form action="https://formspree.io/contact@comicsncoffee.com" method="POST">
 	<label for="name">Name:</label><br />
 	<input type="text" name="name" /><br />

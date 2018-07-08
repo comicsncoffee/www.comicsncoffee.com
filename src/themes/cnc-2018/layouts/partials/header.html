@@ -1,0 +1,17 @@
+<header>
+	<nav>
+		<button>Comics 'N' Coffee</button>
+		<ul class="main">
+		{{ $currentNode := . }}
+		{{ range .Site.Menus.main }}
+			<li><a class="{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>
+		{{ end }}
+		</ul>
+		<ul class="social">
+		{{ range .Site.Menus.social }}
+			<li><a href="{{ .URL }}"><i class="fab fa-{{ .Name }}"></i></a></li>
+		{{ end }}
+		</ul>
+		<button class="toggle"><span class="fas fa-bars"></span></button>
+	</nav>
+</header>

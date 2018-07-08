@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main class="single">
+<article id="{{ .UniqueID }}">
+	<header>
+		{{ if .Params.feature }}
+			<img class="feature" src="/assets/img/feature/{{ .Params.feature }}" alt="" />
+		{{ end }}
+		<h1>{{ .Title }}</h1>
+		<ul><li><time datetime="{{ .Date }}">{{ .Date.Format "Jan, 02 2006" }}</time></li><li>by {{ .Params.author }}</li></ul>
+	</header>
+	<div class="content">{{ .Content }}</div>
+</article>
+</main>
+{{ end }}
