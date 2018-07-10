@@ -158,7 +158,7 @@ Other Places To Find This Episode:
 
 **Moises:**  And hopefully the ones who aren't introverts can help the introverts.  Teach them how to be more open or teach them how to less closed up i guess in a way.
 
-**Ricardo:**  Yeah hopefully, if not you know well have some jokes  so we can laugh at well.  Yeah so i just want to thank everyone for listening this is not going to be the normal length of most episodes the whole point of this episode is the intro to comics n coffee and the podcast and well be back with the next episode where we'll have our normal main topic.  If you do have any questions or feedback for us you can contact us at <contact@comicsncoffee.com> and as i said before were on twitter, were on Facebook or just go to <comicsncoffee.com> and you can contact us there.
+**Ricardo:**  Yeah hopefully, if not you know well have some jokes  so we can laugh at well.  Yeah so i just want to thank everyone for listening this is not going to be the normal length of most episodes the whole point of this episode is the intro to comics n coffee and the podcast and well be back with the next episode where we'll have our normal main topic.  If you do have any questions or feedback for us you can contact us at <contact@comicsncoffee.com> and as I said before were on twitter, were on Facebook or just go to ComicsNCoffee.com and you can contact us there.
 
 **Moises:** Sign up for our newsletter to notify you  when everything is, when we have any new content   coming out or.
 
