@@ -23,7 +23,7 @@ body > header ul{
 		}
 
 	body > header ul.social{
-		top: 250px;
+		top: 300px;
 		padding: 0 48px;
 	}
 
@@ -46,6 +46,14 @@ body.section-blog main article{
 
 body:not(.home) main{
 	width: 80%;
+}
+
+
+.bio-box img{
+	display: block;
+	float: none;
+	margin-bottom: 10px;
+	width: 100%;
 }
 
 

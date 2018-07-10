@@ -275,6 +275,23 @@ h1.poster{
 /************************************************
  * Elements
  * *********************************************/
+.bio-box{
+	border-top: 5px solid #B2303A;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	overflow: auto;
+}
+	.bio-box img{
+		float: left;
+		margin-right: 10px;
+		width: 200px;
+	}
+
+	.bio-box .name{
+		font-size: larger;
+		font-weight: bold;
+	}
+
 .button{
 	display: inline-block;
 	margin: 0;

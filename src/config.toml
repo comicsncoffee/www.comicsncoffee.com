@@ -48,6 +48,11 @@ enableRobotsTXT = true
 	url		= "/contact/"
 	weight	= 15
 
+[[menu.main]]
+	name	= "About"
+	url		= "/about/"
+	weight	= 20
+
 
 [[menu.social]]
     url = "https://twitter.com/Comics_NCoffee/"
