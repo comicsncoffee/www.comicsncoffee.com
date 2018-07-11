@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main class="single">
+	<h1>{{ .Title }}</h1>
+	<div class="content">
+		{{ .Content }}
+		<ul>
+		{{ range sort (where .Site.Data.events.event ".start_time" "ge" now) ".start_time" "asec" }}
+			{{ if eq (.start_time.Format "January") (.end_time.Format "January") }}
+				<li>{{ .start_time.Format "January 2" }} - {{ .end_time.Format "2, 2006" }} -> <a href="{{ .link }}" target="_blank">{{ .name }}</a></li>
+			{{ else }}
+				<li>{{ .start_time.Format "January 2, 2006" }} - {{ .end_time.Format "January 2, 2006" }} -> <a href="{{ .link }}" target="_blank">{{ .name }}</a></li>
+			{{ end }}
+		{{ end }}
+		</ul>
+	</div>
+</main>
+{{ end }}
+
