@@ -1,0 +1,27 @@
+# Types:
+# convention
+# meetup
+# party
+# signing
+# sales?
+
+[[store]]
+name		= "Jim & Dan Comic and Toy Shop"
+phone		= "+1.937.839.7068"
+link		= "https://tampabaycomiccon.com"
+	[store.address]
+	street_1	= "1 East Dayton Street"
+	street_2	= ""
+	city		= "West Alexandria"
+	state		= "OH"
+	zip			= "45381"
+	country		= "United States"
+
+	[store.hours]
+	sunday		= "1:00pm - 6:00pm"
+	monday		= "closed"
+	tuesday		= "closed"
+	wednesday	= "5:00pm - 9:00pm"
+	thursday	= "5:00pm - 9:00pm"
+	friday		= "5:00pm - 9:00pm"
+	saturday	= "10:00am - 6:00pm"
