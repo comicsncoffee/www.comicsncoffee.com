@@ -7,9 +7,135 @@
 
 [[event]]
 type		= "convention"
+name		= "Tampa Bay Comic Con"
+start_time	= 2018-08-03T12:00:00-05:00
+end_time	= 2018-08-05T17:00:00-05:00
+link		= "https://tampabaycomiccon.com"
+	[event.address]
+	street_1	= "Tampa Convention Center"
+	street_2	= "333 S. Franklin St"
+	city		= "Tampa"
+	state		= "FL"
+	zip			= "33602"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "Wizard World Comic Con Winston-Salem"
+start_time	= 2018-08-03T16:00:00-05:00
+end_time	= 2018-08-05T16:00:00-05:00
+link		= "https://wizardworld.com/comiccon/winston-salem"
+	[event.address]
+	street_1	= "Benton Convention Center"
+	street_2	= "301 W 5th St."
+	city		= "Winston-Salem"
+	state		= "NC"
+	zip			= "27101"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "Bell County Comic Con"
+start_time	= 2018-08-04T10:00:00-05:00
+end_time	= 2018-08-05T18:00:00-05:00
+link		= "https://www.bellcountycomiccon.com"
+	[event.address]
+	street_1	= "Bell County Expo Center"
+	street_2	= "300 W Loop 121"
+	city		= "Belton"
+	state		= "TX"
+	zip			= "76513"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "FAN EXPO Boston"
+start_time	= 2018-08-10T16:00:00-05:00
+end_time	= 2018-08-12T17:00:00-05:00
+link		= "https://www.fanexpoboston.com/en/home.html"
+	[event.address]
+	street_1	= "Boston Convention & Exhibition Center"
+	street_2	= "415 Summer St"
+	city		= "Boston"
+	state		= "MA"
+	zip			= "02210"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "Wizard World Comic Con Chicago"
+start_time	= 2018-08-23T16:00:00-05:00
+end_time	= 2018-08-26T16:00:00-05:00
+link		= "https://wizardworld.com/comiccon/chicago"
+	[event.address]
+	street_1	= "Donald E. Stephens Convention Center"
+	street_2	= "5555 North River Road"
+	city		= "Chicago"
+	state		= "IL"
+	zip			= "60018"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "Fort Collins Comic Con"
+start_time	= 2018-08-25T09:00:00-05:00
+end_time	= 2018-08-26T20:00:00-05:00
+link		= "https://fococomiccon.com"
+	[event.address]
+	street_1	= "Northside Aztlan Community Center"
+	street_2	= "112 E Willow Street"
+	city		= "Fort Collins"
+	state		= "CO"
+	zip			= "80524"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "FAN EXPO Canada"
+start_time	= 2018-08-30T16:00:00-05:00
+end_time	= 2018-09-02T17:00:00-05:00
+link		= "https://www.fanexpocanada.com/en/home.html"
+	[event.address]
+	street_1	= "Metro Toronto Convention Centre"
+	street_2	= "255 Front St W"
+	city		= "Toronto"
+	state		= "ON"
+	zip			= "M5V 2W6"
+	country		= "Canada"
+
+[[event]]
+type		= "convention"
+name		= "Wizard World Comic Con Tulsa"
+start_time	= 2018-09-07T16:00:00-05:00
+end_time	= 2018-09-09T16:00:00-05:00
+link		= "https://wizardworld.com/comiccon/tulsa"
+	[event.address]
+	street_1	= "Cox Business Center"
+	street_2	= "100 Civic Center"
+	city		= "Tulsa"
+	state		= "OK"
+	zip			= "74103"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "Wizard World Comic Con Austin"
+start_time	= 2018-09-21T16:00:00-05:00
+end_time	= 2018-09-23T16:00:00-05:00
+link		= "https://wizardworld.com/comiccon/austin"
+	[event.address]
+	street_1	= "Austin Convention Center"
+	street_2	= "301 W 5th St."
+	city		= "Austin"
+	state		= "TX"
+	zip			= "78701"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
 name		= "New York Comic Con"
 start_time	= 2018-10-04T10:00:00-05:00
-end_time	= 2018-10-07T10:00:00-17:00
+end_time	= 2018-10-07T17:00:00-05:00
 link		= "http://www.newyorkcomiccon.com"
 	[event.address]
 	street_1	= "Jacob Javits Center"
@@ -17,6 +143,77 @@ link		= "http://www.newyorkcomiccon.com"
 	city		= "New York"
 	state		= "NY"
 	zip			= "10001"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "Wizard World Comic Con Sacramento"
+start_time	= 2018-10-05T16:00:00-05:00
+end_time	= 2018-10-07T16:00:00-05:00
+link		= "https://wizardworld.com/comiccon/sacramento"
+	[event.address]
+	street_1	= "Cal Expo"
+	street_2	= "1600 Exposition Blvd"
+	city		= "Sacramento"
+	state		= "CA"
+	zip			= "95815"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "Wizard World Comic Con Springfield"
+start_time	= 2018-10-26T16:00:00-05:00
+end_time	= 2018-10-28T16:00:00-05:00
+link		= "https://wizardworld.com/comiccon/springfield"
+	[event.address]
+	street_1	= "University Plaza Hotel & Convention Center"
+	street_2	= "333 S John Q Hammons Pkwy"
+	city		= "Springfield"
+	state		= "MO"
+	zip			= "65806"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "London Comic Con"
+start_time	= 2018-10-26T16:00:00-05:00
+end_time	= 2018-10-28T17:00:00-05:00
+link		= "http://www.londoncomiccon.ca"
+	[event.address]
+	street_1	= "Western Fair District"
+	street_2	= "845 Florence St"
+	city		= "London"
+	state		= "ON"
+	zip			= "N5W 6G6"
+	country		= "Canada"
+
+[[event]]
+type		= "convention"
+name		= "Wizard World Comic Con Montgomery"
+start_time	= 2018-11-09T16:00:00-05:00
+end_time	= 2018-11-11T16:00:00-05:00
+link		= "https://wizardworld.com/comiccon/montgomery"
+	[event.address]
+	street_1	= "The Renaissance Montgomery Hotel & Spa at the Convention Center"
+	street_2	= "201 Tallapoosa St."
+	city		= "Montgomery"
+	state		= "AL"
+	zip			= "36104"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "Wizard World Comic Con Madison"
+start_time	= 2018-11-30T16:00:00-05:00
+end_time	= 2018-12-02T16:00:00-05:00
+link		= "https://wizardworld.com/comiccon/madison"
+	[event.address]
+	street_1	= "Alliant Energy Center"
+	street_2	= "1919 Alliant Energy Center Way"
+	city		= "Madison"
+	state		= "WI"
+	zip			= "53713"
+	country		= "United States"
 
 [[event]]
 type		= "convention"
@@ -30,3 +227,18 @@ link		= "https://www.philadelphiacomiccon.com/"
 	city		= "Oaks"
 	state		= "PA"
 	zip			= "19460"
+	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "Niagara Falls Comic Con"
+start_time	= 2019-06-07T15:00:00-05:00
+end_time	= 2019-06-09T16:00:00-05:00
+link		= "http://nfcomiccon.com"
+	[event.address]
+	street_1	= "Scotiabank Convention Centre"
+	street_2	= "6815 Stanley Ave"
+	city		= "Niagara Falls"
+	state		= "ON"
+	zip			= "L2G 3Y9"
+	country		= "Canada"
