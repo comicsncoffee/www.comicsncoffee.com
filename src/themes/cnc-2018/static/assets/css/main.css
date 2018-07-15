@@ -177,6 +177,15 @@ main{
 	}
 
 
+/* Section - Giveaway */
+body.section-giveaway main.list{
+	padding: 50px 0;
+}
+
+
+
+
+
 /* Section - Events */
 body.section-events main.list{
 	overflow:  auto;

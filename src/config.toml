@@ -39,6 +39,11 @@ enableRobotsTXT = true
 	weight	= 5
 
 [[menu.main]]
+	name	= "Giveaway"
+	url		= "/giveaway/"
+	weight	= 6
+
+[[menu.main]]
 	name	= "Events"
 	url		= "/events/"
 	weight	= 10

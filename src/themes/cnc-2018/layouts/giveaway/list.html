@@ -1,0 +1,9 @@
+{{ define "main" }}
+<main class="list">
+	<h1>{{ .Title }}</h1>
+	<div class="content">
+		{{ .Content }}
+		{{ partial "gleam-contest" . }}
+	</div>
+</main>
+{{ end }}
