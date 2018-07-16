@@ -25,3 +25,24 @@ link		= "https://tampabaycomiccon.com"
 	thursday	= "5:00pm - 9:00pm"
 	friday		= "5:00pm - 9:00pm"
 	saturday	= "10:00am - 6:00pm"
+
+[[store]]
+name		= "Comic Book Jones"
+phone		= "+1.718.448.1234"
+link		= "http://www.comicbookjones.com"
+	[store.address]
+	street_1	= "2220 Forest Ave"
+	street_2	= ""
+	city		= "Staten Island"
+	state		= "NY"
+	zip			= "10303"
+	country		= "United States"
+
+	[store.hours]
+	sunday		= "10:00am - 7:00pm"
+	monday		= "10:00am - 8:00pm"
+	tuesday		= "10:00am - 8:00pm"
+	wednesday	= "10:00am - 9:00pm"
+	thursday	= "10:00am - 9:00pm"
+	friday		= "10:00am - 9:00pm"
+	saturday	= "10:00am - 9:00pm"
