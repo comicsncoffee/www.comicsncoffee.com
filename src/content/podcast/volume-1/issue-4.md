@@ -7,6 +7,7 @@ duration: "0:36:29"
 filesize: 87691264
 season: 1
 episode: 4
+feature: "v1i4.png"
 ---
 
 ## <span class="fas fa-podcast"></span> Audio
