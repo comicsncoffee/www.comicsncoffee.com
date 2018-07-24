@@ -8,6 +8,10 @@ $(document).ready(function(){
 
 	$( document ).click( function( event ){
 
+		var menu = $( "body > header ul" );
+
+		if( $( "body > header button.toggle" ).is( ":visible" ) && menu.is( ":visible" )){
 			$( "body > header ul" ).hide();
+		}
 	});
 });
