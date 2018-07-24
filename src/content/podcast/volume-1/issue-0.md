@@ -5,6 +5,7 @@ description: "In this issue we introduce Comics 'N' Coffee, the podcast, and the
 efile: "comics-n-coffee-volume-1-issue-0.mp3"
 duration: "0:12:33"
 filesize: 30304256
+explicit: no
 season: 1
 episode: 0
 ---

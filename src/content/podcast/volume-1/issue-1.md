@@ -5,6 +5,7 @@ description: "In this issue we discuss what we're looking forward to in season 2
 efile: "comics-n-coffee-volume-1-issue-1.mp3"
 duration: "0:36:16"
 filesize: 87209984
+explicit: no
 season: 1
 episode: 1
 ---
