@@ -10,6 +10,8 @@ season: 1
 episode: 0
 ---
 
+{{< description >}}
+
 ## <span class="fas fa-podcast"></span> Audio
 
 {{< audiobox >}}

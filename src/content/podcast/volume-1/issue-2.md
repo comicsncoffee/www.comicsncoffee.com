@@ -11,6 +11,8 @@ episode: 2
 feature: "v1i2.png"
 ---
 
+{{< description >}}
+
 ## <span class="fas fa-podcast"></span> Audio
 
 {{< audiobox >}}
