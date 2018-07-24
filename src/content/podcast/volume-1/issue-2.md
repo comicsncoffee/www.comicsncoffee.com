@@ -5,7 +5,7 @@ description: "In this issue we discuss Luke Cage Season 2 and what we're excited
 efile: "comics-n-coffee-volume-1-issue-2.mp3"
 duration: "0:50:05"
 filesize: 120295424
-explicit: no
+explicit: "no"
 season: 1
 episode: 2
 feature: "v1i2.png"

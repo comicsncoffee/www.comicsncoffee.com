@@ -5,7 +5,7 @@ description: "In this issue we review the movie Ant-Man and The Wasp and what it
 efile: "comics-n-coffee-volume-1-issue-3.mp3"
 duration: "0:26:49"
 filesize: 64544768
-explicit: no
+explicit: "no"
 season: 1
 episode: 3
 feature: "v1i3.png"

@@ -5,7 +5,7 @@ description: "In this issue we discuss the upcoming Teen Titans live action TV s
 efile: "comics-n-coffee-volume-1-issue-4.mp3"
 duration: "0:36:29"
 filesize: 87691264
-explicit: no
+explicit: "no"
 season: 1
 episode: 4
 feature: "v1i4.png"

@@ -5,7 +5,7 @@ description: "In this issue we discuss New York Comic Con. From what to do durin
 efile: "comics-n-coffee-volume-1-issue-5.mp3"
 duration: "0:39:47"
 filesize: 95660032
-explicit: yes
+explicit: "yes"
 season: 1
 episode: 5
 feature: "v1i5.png"
