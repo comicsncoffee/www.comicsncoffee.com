@@ -184,6 +184,19 @@ body.section-giveaway main.list{
 
 
 
+/* Section - Newsletter */
+body.section-newsletter main.single{
+}
+	body.section-newsletter main.single h2{
+		display: inline-block;
+		margin-bottom: 0;
+		background-color: #B2303A;
+		padding: 5px 10px;
+		color: #FFFFFF;
+		font-size: 2.2rem;
+	}
+
+
 
 
 /* Section - Events */
