@@ -242,3 +242,17 @@ link		= "http://nfcomiccon.com"
 	state		= "ON"
 	zip			= "L2G 3Y9"
 	country		= "Canada"
+
+[[event]]
+type		= "convention"
+name		= "VA Comicon"
+start_time	= 2018-10-27T11:00:00-05:00
+end_time	= 2018-10-28T16:00:00-05:00
+link		= "http://vacomicon.com/"
+	[event.address]
+	street_1	= "Richmond Raceway"
+	street_2	= "600 E. Laburnum Ave"
+	city		= "Richmond"
+	state		= "VA"
+	zip			= "23222"
+	country		= "United States"
