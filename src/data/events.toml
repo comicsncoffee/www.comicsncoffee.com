@@ -256,3 +256,17 @@ link		= "http://vacomicon.com/"
 	state		= "VA"
 	zip			= "23222"
 	country		= "United States"
+
+[[event]]
+type		= "convention"
+name		= "Keystone Comic Con"
+start_time	= 2018-09-14T01:09:00-05:00
+end_time	= 2018-09-16T16:17:00-05:00
+link		= "http://www.keystonecomiccon.com/Home/"
+	[event.address]
+	street_1	= "Pennsylvania Convention Center"
+	street_2	= "1101 Arch ST"
+	city		= "Phialdelphia"
+	state		= "PA"
+	zip			= "19107"
+	country		= "United States"
