@@ -138,7 +138,8 @@ h2{
 	font-size: 3.0rem;
 }
 
-main > h1{
+main > h1,
+main.single h1{
 	text-align: center;
 	color: #B2303A;
 	font-weight: normal;
@@ -184,6 +185,20 @@ body.section-giveaway main.list{
 
 
 
+/* Section - Blog */
+body.section-blog main.single{
+}
+	body.section-blog main.single h2{
+		display: inline-block;
+		margin-bottom: 0;
+		background-color: #B2303A;
+		padding: 5px 10px;
+		color: #FFFFFF;
+		font-size: 2.2rem;
+	}
+
+
+
 /* Section - Newsletter */
 body.section-newsletter main.single{
 }
@@ -195,7 +210,6 @@ body.section-newsletter main.single{
 		color: #FFFFFF;
 		font-size: 2.2rem;
 	}
-
 
 
 
