@@ -34,6 +34,11 @@ enableRobotsTXT = true
 	weight	= -1
 
 [[menu.main]]
+	name	= "Social Network"
+	url		= "/social/"
+	weight	= 4
+
+[[menu.main]]
 	name	= "Podcast"
 	url		= "/podcast/"
 	weight	= 5
