@@ -34,11 +34,6 @@ enableRobotsTXT = true
 	weight	= -1
 
 [[menu.main]]
-	name	= "Social Network"
-	url		= "/social/"
-	weight	= 4
-
-[[menu.main]]
 	name	= "Podcast"
 	url		= "/podcast/"
 	weight	= 5
@@ -83,11 +78,6 @@ enableRobotsTXT = true
     name = "youtube"
     url = "https://www.youtube.com/channel/UCNCoJDuMl4r4Q0SjNgYS2kA"
     weight = 4
-
-[[menu.social]]
-    name = "google-plus"
-    url = "https://plus.google.com/113015979305406231545"
-    weight = 5
 
 [[menu.social]]
     name = "github"
