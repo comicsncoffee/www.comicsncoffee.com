@@ -10,25 +10,25 @@ workflows:
           filters:
             branches:
               only: master
-      - deploy-staging:
-          requires:
-            - build
-          filters:
-            branches:
-              ignore: master
+      #- deploy-staging:
+      #    requires:
+      #      - build
+      #    filters:
+      #      branches:
+      #        ignore: master
 
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:0.52
+      - image: cibuilds/hugo:0.53
     steps:
       - checkout
       - run:
           name: "Build Website With Hugo"
           command: HUGO_ENV=production hugo --verbose --source src/
-      - run:
-          name: "Build Staging With Hugo"
-          command: HUGO_ENV=staging hugo --verbose --source src/ --config src/config.toml,src/config-staging.toml
+      #- run:
+      #    name: "Build Staging With Hugo"
+      #    command: HUGO_ENV=staging hugo --verbose --source src/ --config src/config.toml,src/config-staging.toml
       - run:
           name: "Test Website"
           command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
@@ -40,7 +40,7 @@ jobs:
 
   deploy-production:
     docker:
-      - image: cibuilds/hugo:0.52
+      - image: cibuilds/hugo:0.53
     steps:
       - attach_workspace:
           at: src
@@ -51,7 +51,7 @@ jobs:
 
   deploy-staging:
     docker:
-      - image: cibuilds/hugo:0.52
+      - image: cibuilds/hugo:0.53
     steps:
       - attach_workspace:
           at: src
