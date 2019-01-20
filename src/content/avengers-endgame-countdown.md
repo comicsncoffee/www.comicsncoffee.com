@@ -141,7 +141,7 @@ initializeClock(releaseDate);
 			{
 				text: "Avengers: Endgame will be here in " + difference + " days. Excited? Keep track with this countdown.",
 				hashtags: "AvengersEndgame",
-				via: "ComicsN_Coffee",
+				via: "Comics_NCoffee",
 				related: "MarvelStudios",
 				size: "large"
 			}
